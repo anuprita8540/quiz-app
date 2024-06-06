@@ -19,15 +19,27 @@
 //        { text: "Arctic",correct:false},
 //        { text: "Africa",correct:false},
 //     ]
-//    }
+//    },
+
+//    {
+      
+//     question: "which is smallest continent  in the world ?",
+//     answers: [
+//        { text: "Asia",correct:false},
+//        { text: "Australia",correct:True},
+//        { text: "Arctic",correct:false},
+//        { text: "Africa",correct:false},
+//     ]
+//    },
+
 // ];
 
 // const questionElement=document.getElementById("question");
-// const answerButton=document.getElementById("answer-button");
+// const answerButton=document.getElementById("answer-buttons");
 // const nextButton=document.getElementById("next-btn");
 
-// let currentQuestionIndex=0;
-// let score=0;
+// let currentQuestionIndex = 0;
+// let score = 0;
 
 // function startQuiz(){
 //     currentQuestionIndex=0;
@@ -37,16 +49,19 @@
 // }
 
 // function  showQuestion(){
-//     let currentQuestionIndex=questions[currentQuestionIndex];
-//     let questionNo=currentQuestionIndex + 1;
-//     questionElement.innerHTML=questionNo + ". " + currentQuestion.
+//     let currentQuestion = questions[currentQuestionIndex];
+//     let questionNo = currentQuestionIndex + 1;
+//     questionElement.innerHTML=questionNo + " . " + currentQuestion.
 //     question;
 
-//     currentQuestion.answer.forEach(answer=> {
+//     currentQuestion.answers.forEach(answer => {
 //         const button = document.createElement("button");
 //         button.innerHTML=answer.text;
 //         button.classList.add("btn");
 //         answerButton.appendChild(button);
-//     })
+//     });
 // }
 // startQuiz();
+
+
+// console.log("hello")
